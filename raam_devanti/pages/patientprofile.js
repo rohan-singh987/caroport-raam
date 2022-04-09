@@ -3,12 +3,21 @@ import React from "react";
 function patientprofile() {
   return (
     <>
-      <div className="bg-gray-500">
+      <div className="bg-gray flex-col ">
         <div className="general py-2">
         <h2 className="mx-3" >General Information</h2>
         <div className="relative overflow-x-auto shadow-md rounded-lg md:rounded-lg my-2 mx-9">
           <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
             <tbody>
+            <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th
+                  scope="row"
+                  className="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap"
+                >
+                  User Id
+                </th>
+                <td className="px-6 py-4">Mohi9817545</td>
+              </tr>
               <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                 <th
                   scope="row"
@@ -58,7 +67,7 @@ function patientprofile() {
           </table>
         </div>
         </div>
-        <div className="medical py-2">
+        <div className="medical py-2 ">
           <h2 className="mx-3">Medical History</h2>
 
           <div className="relative overflow-x-auto shadow-md rounded-lg md:rounded-lg my-3 mx-9">
@@ -109,6 +118,7 @@ function patientprofile() {
                     </a>
                   </td>
                 </tr>
+                
               </tbody>
             </table>
           </div>
@@ -116,6 +126,7 @@ function patientprofile() {
         </div>
         
       </div>
+      
     </>
   );
 }
