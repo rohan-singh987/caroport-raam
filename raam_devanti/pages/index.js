@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className='bg-slate-300'>
+    <div className='bg-slate-300 h-screen'>
       <Head>
         <title>Caroport</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -12,10 +12,10 @@ export default function Home() {
       <div className='flex justify-end'>
         <span className='bg-blue-600 align-middle p-2 text-white font-medium rounded-bl-xl lg:text-lg'>I'm a Doctor</span>
       </div>
-      <div className='p-10 sm:px-28 md:py-14 md:px-40 lg:py-20 lg:px-56 xl:py-24 xl:px-72'>
+      <div className='p-3 sm:px-28 md:py-7 md:px-10 lg:py-10 lg:px-12 xl:py-12 xl:px-96'>
         <div className='bg-slate-400 py-5 rounded-xl shadow-2xl sm:px-3'>
-          <div className='w-4/5 mx-auto flex mb-3'>
-            <div className='w-3/5'>
+          <div className='w-1/3 mx-auto flex mb-3'>
+            <div className='w-2/3'>
               <Image
                 src="/media/icon1.png"
                 height="750"
@@ -25,7 +25,7 @@ export default function Home() {
             </div>
               <span className='uppercase font-semibold text-lg my-auto lg:text-2xl'>Caroport</span>
           </div>
-          <div className='bg-slate-700 w-4/5 p-5 mx-auto mb-5 rounded-lg sm:mb-8 lg:w-3/5'>
+          <div className='bg-slate-700 w-3/5 p-5 mx-auto mb-5 rounded-lg sm:mb-8 lg:w-3/5'>
             <form action="">
               <div className='sm:w-1/3'>
                 <label htmlFor="uname" className='text-white'>Username:</label>
